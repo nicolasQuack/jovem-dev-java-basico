@@ -15,7 +15,7 @@ public class Exercicio6 {
 		HashMap<String, ArrayList<Double>> alunos = new HashMap<String, ArrayList<Double>>();
 		for (int i = 0; i < 5; i++) {
 			ArrayList<Double> notas = new ArrayList<Double>();
-			alunos.put(JOptionPane.showInputDialog("Insira o nome do aluno(a) "+ (i+1) + ":"), notas);
+			alunos.put(JOptionPane.showInputDialog("Insira o nome do aluno(a) " + (i + 1) + ":"), notas);
 		}
 
 		alunos.forEach((s, n) -> {
