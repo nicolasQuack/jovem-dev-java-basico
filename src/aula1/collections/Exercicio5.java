@@ -17,5 +17,9 @@ public class Exercicio5 {
 		System.out.println(set1);
 		System.out.println(set2);
 		
+		set1.addAll(set2);
+		
+		System.out.println(set1);
+		
 	}
 }
