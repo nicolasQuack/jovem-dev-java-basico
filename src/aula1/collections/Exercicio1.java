@@ -6,7 +6,8 @@ import java.util.Random;
 
 public class Exercicio1 {
 	public static void main(String[] args) {
-		ArrayList<Integer> lista = new ArrayList<Integer>();
+		ArrayList<Integer> lista = new ArrayList<Integer>(3);
+		System.out.println(lista.size());
 		for (int i = 0; i < 10; i++) {
 			Random r = new Random();
 			lista.add(r.nextInt(50));

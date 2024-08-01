@@ -3,6 +3,7 @@ package aula3.tratamentoerros;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class Exercicio3 {
 	public static void main(String[] args) throws IOException {
@@ -26,7 +27,7 @@ public class Exercicio3 {
 		}
 
 		try {
-			
+				
 		} catch (IllegalStateException e) {
 			e.printStackTrace();
 		}
