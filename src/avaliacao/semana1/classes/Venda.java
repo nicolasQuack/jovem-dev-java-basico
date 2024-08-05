@@ -97,7 +97,7 @@ public class Venda {
 		msg += "Descto. " + getDesconto() + "% ";
 		msg += getDesconto() == 30 ? "aniversário" : getDesconto() == 20 ? "cliente premium" : getDesconto() == 10 ? "terceira idade" : "";
 		msg += "\n\n";
-		msg += "Total ************** " + df.format(subTotal*(1.0-(getDesconto()/100))) + "\n";
+		msg += "Total ************** " + df.format(subTotal*(1.0-(getDesconto()/100.00))) + "\n";
 		msg += "Forma de pagamento: " + formaPagamento + "\n";
 		String primeiraLetra = String.valueOf(getCliente().getNome().charAt(0));
 		String restoDoNome = getCliente().getNome().substring(1);
