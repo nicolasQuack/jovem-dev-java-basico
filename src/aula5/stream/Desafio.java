@@ -32,7 +32,7 @@ public class Desafio {
 			.collect(Collectors.toList());
 	
 		for (Pessoa pessoa : ls) {
-			System.out.println(pessoa.getNome());
+			System.out.print(pessoa.getNome() + "; ");
 		}
 		
 		
