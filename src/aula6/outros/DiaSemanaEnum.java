@@ -43,6 +43,7 @@ public enum DiaSemanaEnum {
 			return true;
 		}
 	};
+
 	
 	private int cod;
 	private String nome;
